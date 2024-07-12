@@ -4,40 +4,39 @@ author:
   - name: Liudmila Pishchagina
     corresponding: true
     email: liudmila.pishchagina@univ-evry.fr
-    url: https://github.com/lpishchagina
-    
+    url: https://github.com/lpishchagina    
     affiliations:
       - name: Universit\'e Paris-Saclay, CNRS, Univ Evry, Laboratoire de Math\'ematiques et Mod\'elisation d'Evry, 91037, Evry-Courcouronnes, France
   - name: Guillem Rigaill
-    email: guillem.rigaill@inrae.fr
-    
+    email: guillem.rigaill@inrae.fr    
+    orcid: 0000-0002-7176-7511
     affiliations:
       - name: Universit\'e Paris-Saclay, CNRS, Univ Evry, Laboratoire de Math\'ematiques et Mod\'elisation d'Evry, 91037, Evry-Courcouronnes, France
       - name: Universit\'e Paris-Saclay, CNRS, INRAE, Univ Evry, Institute of Plant Sciences Paris-Saclay (IPS2), Orsay, France      
   - name: Vincent Runge
+    orcid: 0000-0002-4857-1799
     email: vincent.runge@univ-evry.fr
-    url: https://johndoe.someplace.themoon.org
-    
     affiliations:
       - name: Universit\'e Paris-Saclay, CNRS, Univ Evry, Laboratoire de Math\'ematiques et Mod\'elisation d'Evry, 91037, Evry-Courcouronnes, France
-date: 2023-06-05
-date-modified: 2024-02-19
-
+date: 07/12/2024
+date-modified: last-modified
 abstract: >+
  We address the challenge of identifying multiple change points in a group of independent time series, assuming these change points occur simultaneously in all series and their number is unknown. The search for the best segmentation can be expressed as a minimization problem over a given cost function. We focus on dynamic programming algorithms that solve this problem exactly. When the number of changes is proportional to data length, an inequality-based pruning rule encoded in the PELT algorithm leads to a linear time complexity. Another type of pruning, called functional pruning, gives a close-to-linear time complexity whatever the number of changes, but only for the analysis of univariate time series. We propose a few extensions of functional pruning for multiple independent time series based on the use of simple geometric shapes (balls and hyperrectangles). We focus on the Gaussian case, but some of our rules can be easily extended to the exponential family. In a simulation study we compare the computational efficiency of different geometric-based pruning rules. We show that for a small number of time series some of them ran significantly faster than inequality-based approaches in particular when the underlying number of changes is small compared to the data length.
 keywords: [multivariate time series, multiple change point detection, dynamic programming, functional pruning, computational geometry]
 citation:
   type: article-journal
   container-title: "Computo"
-  doi: "xxxx"
-  url: https://computo.sfds.asso.fr/template-computo-quarto
-  publisher: "Société Française de Statistique"
+  doi: "10.57750/9vvx-eq57"
+  url: https://computo.sfds.asso.fr/published-202406-pishchagina-change-point/
+  pdf-url: https://computo.sfds.asso.fr/published-202406-pishchagina-change-point/published-202406-pishchagina-change-point.pdf
+  publisher: "French Statistical Society"
   issn: "2824-7795"
 bibliography: references.bib
+google-scholar: true
 github-user: computorg
-repo: "template-computo-r"
-draft: true # set to false once the build is running
-published: false # will be set to true once accepted
+repo: "published-202406-pishchagina-change-point"
+draft: false # set to false once the build is running
+published: true # will be set to true once accepted
 format:
   computo-html: default
   computo-pdf: default
