@@ -13,7 +13,9 @@ by
 [![HTML](https://img.shields.io/badge/article-HTML-034E79)](https://computo.sfds.asso.fr/published-202406-pishchagina-change-point/)
 [![PDF](https://img.shields.io/badge/article-PDF-034E79)](https://computo.sfds.asso.fr/published-202406-pishchagina-change-point/published-elmasri-optimal.pdf)
 [![review](https://img.shields.io/badge/review-report%201-blue)](https://github.com/computorg/published-202406-pishchagina-change-point/issues/2)
-[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/computorg/published-202406-pishchagina-change-point/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/computorg/published-202406-pishchagina-change-point)
+[![review 2](https://img.shields.io/badge/review-report%202-blue)](https://github.com/computorg/published-202406-pishchagina-change-point/issues/3)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/computorg/published-202406-pishchagina-change-point)](
+https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/computorg/published-202406-pishchagina-change-point)
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
 
